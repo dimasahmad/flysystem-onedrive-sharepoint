@@ -1,0 +1,46 @@
+{
+    "name": "dimasahmad/flysystem-onedrive-sharepoint",
+    "description": "Flysystem Adapter for OneDrive and SharePoint using Microsoft Graph API",
+	"keywords": [
+        "dimasahmad",
+        "flysystem-onedrive-sharepoint",
+        "flysystem",
+        "onedrive",
+        "sharepoint",
+        "microsoft-graph",
+        "api"
+    ],
+	"homepage": "https://github.com/dimasahmad/flysystem-onedrive-sharepoint",
+    "type": "library",
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "Dimas Ahmad Eka Putra",
+            "email": "dimasahmad@gmail.com",
+			"homepage": "https://github.com/dimasahmad/",
+			"role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "league/flysystem": "^1.0",
+        "microsoft/microsoft-graph": "^1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "minimum-stability": "stable",
+	"autoload": {
+        "psr-4": {
+            "DimasAhmad\\FlysystemOneDriveSharePoint\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DimasAhmad\\FlysystemOneDriveSharePoint\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+}
